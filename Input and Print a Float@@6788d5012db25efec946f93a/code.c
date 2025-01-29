@@ -3,8 +3,8 @@
 
 
 int main() {
-    float f;
-    printf("You entered: ");
-    scanf("%f",&f);
+    float no;
+    scanf("%f",&no)
+    printf("You entered: %f",no);
     return 0;
 }
