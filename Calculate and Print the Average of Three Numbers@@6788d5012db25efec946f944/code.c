@@ -3,9 +3,10 @@
 
 
 int main() {
-    int u,n,i,avg;
+    int u,n,i;
+    float avg;
     scanf("%d%d%d",&u,&n,&i);
     avg= u+n+i;
-    printf("Average: %d", avg);
+    printf("Average: %.2f", avg);
     return 0;
 }
