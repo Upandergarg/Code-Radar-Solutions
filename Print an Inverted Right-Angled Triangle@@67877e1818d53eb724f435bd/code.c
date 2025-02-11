@@ -5,11 +5,12 @@ int main(){
     while(i<=n){
 
         while(j<=n-i+1){
-            j=0
+            j=0;
             printf("* ");
             j++;
 
         }
+
         i++;
     }
 }
