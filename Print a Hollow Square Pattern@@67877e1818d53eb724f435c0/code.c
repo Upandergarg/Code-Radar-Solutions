@@ -10,11 +10,15 @@ int main(){
                 j++;
             }
         }
-        if(j==1 || j==n){
+        while(j<=n){
+                    if(j==1 || j==n){
             while(j<=1){
                 printf("*");
             }
+            j++;
         }
+        }
+
         i++;
         printf("\n");
     }
