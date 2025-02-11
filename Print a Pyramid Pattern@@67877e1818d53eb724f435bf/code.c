@@ -8,12 +8,14 @@ int main(){
             printf(" ");
             j++;
         }
+
         j=1;
-        while(j<=2*i+1)
+        while(j<=2*i+1){
         printf("*");
         j++;
+        }
+        i++;
+        printf(/n);
     }
-    i++;
-    printf("\n");
     
 }
