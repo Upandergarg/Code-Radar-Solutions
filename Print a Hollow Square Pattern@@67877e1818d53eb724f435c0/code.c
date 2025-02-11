@@ -1,25 +1,24 @@
-#include<stdio.h>
-int main(){
-    int i,j,n;
-    scanf("%d",&n);
-    while(i<n){
-        if (i==0 || i==n-1){
-            j=1
-            while(j<=n){
+#include <stdio.h>
+
+int main() {
+    int i = 0, j, n;
+    scanf("%d", &n);
+
+    while (i < n) {
+        j = 1;  
+
+        while (j <= n) {
+            if (i == 0 || i == n - 1 || j == 1 || j == n) {
                 printf("*");
-                j++;
-            }
-        }
-        while(j<=n){
-                    if(j==1 || j==n){
-            while(j<=1){
-                printf("*");
+            } else {
+                printf(" ");  
             }
             j++;
         }
-        }
 
+        printf("\n");  
         i++;
-        printf("\n");
     }
+
+    return 0;
 }
