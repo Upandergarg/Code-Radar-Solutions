@@ -8,6 +8,7 @@ while(i<=n){
         printf(" ");
         j++;
     }
+    j=1;
     while(j<=i){
         printf("*");
         j++;
