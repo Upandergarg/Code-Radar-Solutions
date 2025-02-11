@@ -6,7 +6,7 @@ int main{
         j=1;
         while(j<=n-i){
             printf(" ");
-            j++
+            j++;
         }
         j=1;
         while(j<=2*i+1)
