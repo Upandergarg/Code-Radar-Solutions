@@ -10,6 +10,7 @@ int main(){
             j++;
 
         }
+        printf("\n");
 
         i++;
     }
