@@ -9,5 +9,6 @@ int main(){
             j++;
         }
         i++;
+        printf("\n");
     }
 }
