@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-int i=1,j,n;
+int i=0,j,n;
 scanf("%d",&n);
-while(i<=n){
+while(i<n){
     j=1;
-    while(j<=n-i+1){
+    while(j<=n-i){
         printf(" ");
         j++;
     }
