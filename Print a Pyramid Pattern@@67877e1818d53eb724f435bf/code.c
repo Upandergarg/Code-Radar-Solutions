@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main{
+int main(){
     int i=0,j,n;
     scanf("%d",&n);
     while(i<n){
