@@ -8,7 +8,6 @@ int main(){
             u=u+1;
             
         }
-        u++;
 
         printf("\n");
     }
