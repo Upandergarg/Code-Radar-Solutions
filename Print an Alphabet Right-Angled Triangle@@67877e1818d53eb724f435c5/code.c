@@ -9,7 +9,7 @@ int main(){
             printf("%c ",r);
             r++;
         }
-        r='A'
+        r='A';
         printf("\n");
     }
 
