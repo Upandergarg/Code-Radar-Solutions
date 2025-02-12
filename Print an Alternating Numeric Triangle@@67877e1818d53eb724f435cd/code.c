@@ -1,14 +1,12 @@
 #include<stdio.h>
 int main(){
-    int i,j,n;
-    char r= 'A';
+    int i,j,n,o=0;
     scanf("%d",&n);
     for(i=0; i<n; i++){
         for(j=0; j<=i; j++){
-            printf("%c ",r);
-            r++;
+            printf("%d ",(i+j)%2);
+
         }
-        r='A';
         printf("\n");
     }
 
