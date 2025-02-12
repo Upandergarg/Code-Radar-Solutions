@@ -9,5 +9,6 @@ int main() {
             u++;
         }
         u = 'A';
+        printf("\n");
     }
 }
