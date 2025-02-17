@@ -9,5 +9,6 @@ int main() {
     else{
         printf("%d", a | (1<<n-1));
     }
+}
 
 
