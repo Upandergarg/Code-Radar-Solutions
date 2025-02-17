@@ -2,9 +2,11 @@
 int main(){
     int n=0,j;
     scanf("%d",&j);
-    while((j& (1<<n))==1){
-        printf("%d",n);
-        n++;
+    for(n=0; n<=100; n++;){
+        if(j & (1<<n)){
+            printf("%d",n);
+        }
     }
 
-}
+    }
+
