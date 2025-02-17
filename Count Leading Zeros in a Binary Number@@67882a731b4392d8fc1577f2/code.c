@@ -9,6 +9,7 @@ int main(){
         while((i & (1<<32))==0){
             
             c++;
+            i<<=1;
         }
     }
     printf("%d",c);
