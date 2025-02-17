@@ -2,13 +2,13 @@
 int main(){
     int n,j;
     scanf("%d",&j);
-    int h= j& -J;
-    int l;
-    while (h>1){
+    int l= j& -J;
+    int p;
+    while (l>1){
         l << =1;
-        l++;
+        p++;
     }
-    printf("%d",l);
+    printf("%d",p);
 
 
     }
