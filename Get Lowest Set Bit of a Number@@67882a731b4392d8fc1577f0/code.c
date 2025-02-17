@@ -1,9 +1,14 @@
 #include<stdio.h>
 int main(){
-    int n,j,l;
+    int n,j;
     scanf("%d",&j);
-    l= j&-j;
-    printf("%d", l -1);
+    int h= j& -J;
+    int l;
+    while (h>1){
+        l << =1;
+        l++;
+    }
+    printf("%d",l);
 
 
     }
