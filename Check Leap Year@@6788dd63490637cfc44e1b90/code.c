@@ -6,9 +6,9 @@ int main() {
 
     // Leap year condition
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-        printf("%d", year);
+        printf("Leap Year");
     } else {
-        printf("%d", year);
+        printf("Not a Leap Year");
     }
 
     return 0;
