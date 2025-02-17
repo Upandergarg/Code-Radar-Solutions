@@ -11,6 +11,6 @@ int main(){
         i = i/ 2;  // Divide the number by 2
         ind++;  // Move to the next index
     }
-    printf("%d",ind);
+    printf("%d",c);
     
 }
