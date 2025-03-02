@@ -1,13 +1,18 @@
-#include<stdio.h>
-#include<string.h>
-int main(){
-    char i ;
-    scanf("%c",&i);
-    if(islowercase(i)){
-        printf("Lowercase");
+#include <stdio.h>
+#include <ctype.h>
 
-    }
-    else{
+int main() {
+    char i;
+    scanf("%c", &i);
+
+    if (islower(i)) {  // Correct function to check lowercase
+        printf("Lowercase");
+    } else if(isupper(i)){
         printf("Uppercase");
     }
+    else{
+        printf("Not an alphabet");
+    }
+
+    return 0;
 }
